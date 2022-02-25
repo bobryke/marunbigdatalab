@@ -1,7 +1,8 @@
 title: "Big Data and Text Analytics (BIGDATA) Research Lab."
 email: wowthemesnet@gmail.com
 timezone: UTC
-baseurl: "https://bobryke.github.io/marunbigdatalab"
+baseurl: ""
+# baseurl: "https://bobryke.github.io/marunbigdatalab"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -27,7 +28,7 @@ authors:
   Murat:
     name: Murat Can Ganiz
     display_name: Murat
-    avatar: 'assets/images/john.png'
+    avatar: 'assets/images/no_avatar.png'
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
@@ -36,36 +37,12 @@ authors:
   Berkay:
     name: Berkay Mengunogul
     display_name: Berkay
-    avatar: 'assets/images/sal.png'
+    avatar: 'assets/images/berkay.jpg'
     email: berkay.mengunogul@gmail.com
     web: https://github.com/bobryke
     twitter: https://twitter.com/bob_ryke
     linkedin: "https://www.linkedin.com/in/berkaymengunogul/"
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  Berkay1:
-    name: Berkay Mengunogul
-    display_name: Berkay
-    avatar: 'assets/images/sal.png'
-    email: berkay.mengunogul@gmail.com
-    web: github.com/bobryke
-    twitter: https://twitter.com/bob_ryke
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  Berkay2:
-    name: Berkay Mengunogul
-    display_name: Berkay
-    avatar: 'assets/images/sal.png'
-    email: berkay.mengunogul@gmail.com
-    web: github.com/bobryke
-    twitter: https://twitter.com/bob_ryke
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  Berkay3:
-    name: Berkay Mengunogul
-    display_name: Berkay
-    avatar: 'assets/images/sal.png'
-    email: berkay.mengunogul@gmail.com
-    web: github.com/bobryke
-    twitter: https://twitter.com/bob_ryke
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "An Undergrad Computer Science Student working on Early Diagnosis of Alzheirmer's Diseases with AI"
 # Social
 social:
   instagram: https://www.instagram.com/
