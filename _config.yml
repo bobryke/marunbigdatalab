@@ -1,0 +1,81 @@
+title: "Big Data and Text Analytics (BIGDATA) Research Lab."
+email: wowthemesnet@gmail.com
+timezone: UTC
+baseurl: "marunbigdatalab"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Sal
+paginate: 30
+disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  Murat:
+    name: Murat Can Ganiz
+    display_name: Murat
+    avatar: 'assets/images/john.png'
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net/category/jekyll-themes/
+    twitter: https://twitter.com/wowthemesnet
+    linkedin: ""
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+  Berkay:
+    name: Berkay Mengunogul
+    display_name: Berkay
+    avatar: 'assets/images/sal.png'
+    email: berkay.mengunogul@gmail.com
+    web: https://github.com/bobryke
+    twitter: https://twitter.com/bob_ryke
+    linkedin: "https://www.linkedin.com/in/berkaymengunogul/"
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  Berkay1:
+    name: Berkay Mengunogul
+    display_name: Berkay
+    avatar: 'assets/images/sal.png'
+    email: berkay.mengunogul@gmail.com
+    web: github.com/bobryke
+    twitter: https://twitter.com/bob_ryke
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  Berkay2:
+    name: Berkay Mengunogul
+    display_name: Berkay
+    avatar: 'assets/images/sal.png'
+    email: berkay.mengunogul@gmail.com
+    web: github.com/bobryke
+    twitter: https://twitter.com/bob_ryke
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  Berkay3:
+    name: Berkay Mengunogul
+    display_name: Berkay
+    avatar: 'assets/images/sal.png'
+    email: berkay.mengunogul@gmail.com
+    web: github.com/bobryke
+    twitter: https://twitter.com/bob_ryke
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+# Social
+social:
+  instagram: https://www.instagram.com/
+  facebook: https://www.facebook.com/
+  twitter: https://twitter.com/
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives

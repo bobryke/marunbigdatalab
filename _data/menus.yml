@@ -1,0 +1,55 @@
+# Top Menu
+topmenu:
+
+- title: Home
+  url: ""
+
+- title: News
+  url: "news/"
+
+- title: People
+  url: "people/"
+
+- title: Projects
+  url: "projects/"
+
+- title: Courses
+  url: "courses/"
+
+- title: Publications
+  url: "publications/"
+
+# - title: Software
+#   url: ""
+
+# - title: Pictures
+#   url: ""
+
+- title: About
+  url: "about/"
+
+- title: Contact
+  class: "ml-2 btn btn-dark text-white px-3"
+  url: "contact/"
+
+# - title: Get this theme  
+#   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+#   class: "ml-2 btn btn-dark text-white px-3"
+#   external: true
+
+
+# Footer Menu
+footermenu:
+
+# - title: Home
+#   url: ""
+
+# - title: Privacy Policy
+#   url: "privacy-policy/"
+
+# - title: Contact
+#   url: "contact/"
+
+# - title: Download
+#   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+#   external: true
