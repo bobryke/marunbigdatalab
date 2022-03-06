@@ -2,7 +2,7 @@
 course_name: Big Data and Text Analytics (BIGDaTA) Research Lab.
 course_semester: "2021"
 
-baseurl: "/marunbigdatalab/" # the subpath of your site, e.g. /blog/
+baseurl: "/marunbigdatalab" # the subpath of your site, e.g. /blog/
 url: "https://bobryke.github.io" # the base hostname & protocol for your site
 
 schoolname: "Marmara University"
