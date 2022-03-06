@@ -1,5 +1,6 @@
 ---
 layout: people
 title: People
-permalink: "/people/"
+permalink: /people/
 ---
+   

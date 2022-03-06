@@ -2,7 +2,6 @@
 layout: page
 title: Courses
 permalink: /courses/
-comments: false
 ---
 <div id="content">
          <h2 class="renk"> Recent Courses</h2>

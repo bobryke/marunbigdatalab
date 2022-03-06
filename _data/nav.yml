@@ -1,0 +1,37 @@
+items:
+- url: /
+  name: Home
+  icon_class: fa fa-home fa-lg
+
+- url: /news/
+  name: News
+  icon_class: fa fa-newspaper
+
+- url: /people/
+  name: People
+  icon_class: fa fa-user
+
+- url: /projects/
+  name: Projects
+  icon_class: fa fa-cube
+
+- url: /courses/
+  name: Courses
+  icon_class: fas fa-chalkboard
+
+- url: /publications/
+  name: Publications
+  icon_class: fas fa-book
+
+- url: /datasets/
+  name: Datasets
+  icon_class: fa fa-database
+
+- url: /software/
+  name: Software
+  icon_class: fa fa-desktop
+
+- url: /contact/
+  name: Contact
+  icon_class: fa fa-address-book  
+

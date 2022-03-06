@@ -2,8 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
-comments: false
 ---
+
 <h2>Current Projects</h2>
 <table>
     <ul>
@@ -134,7 +134,7 @@ comments: false
         </tr>
     </ul>
 </table>
-
+<br>
 <h2>Previous Projects</h2>
 <table>
     <ul>

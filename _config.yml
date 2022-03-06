@@ -1,58 +1,52 @@
-title: "Big Data and Text Analytics (BIGDATA) Research Lab."
-email: wowthemesnet@gmail.com
-timezone: UTC
-# baseurl: ""
-baseurl: "https://bobryke.github.io/marunbigdatalab"
-permalink: "/:title/"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-author: Sal
-paginate: 30
-disqus: 'marunbigdatalab'
-locale: en_us
-lang: en_us
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
+# Site settings
+course_name: Big Data and Text Analytics (BIGDaTA) Research Lab.
+course_semester: "2021"
+
+baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+schoolname: "Marmara University"
+schoolurl: "https://www.marmara.edu.tr/en"
+# twitter_username: username 
+
+address: |
+    Marmara University
+    M2-108
+    RTE Campus, Maltepe,
+    ISTANBUL / TURKEY
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
 markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-sass:
-  sass_dir: _sass
-  style: :compressed
-ganalytics: UA-69091517-1
 
-# Authors
-authors:
-  Murat:
-    name: Murat Can Ganiz
-    display_name: Murat
-    avatar: 'assets/images/no_avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    linkedin: ""
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
-  Berkay:
-    name: Berkay Mengunogul
-    display_name: Berkay
-    avatar: 'assets/images/berkay.jpg'
-    email: berkay.mengunogul@gmail.com
-    web: https://github.com/bobryke
-    twitter: https://twitter.com/bob_ryke
-    linkedin: "https://www.linkedin.com/in/berkaymengunogul/"
-    description: "An Undergrad Computer Science Student working on Early Diagnosis of Alzheirmer's Diseases with AI"
-# Social
-social:
-  instagram: https://www.instagram.com/
-  facebook: https://www.facebook.com/
-  twitter: https://twitter.com/
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
 
-# Plugins
-plugins: 
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-archives
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
